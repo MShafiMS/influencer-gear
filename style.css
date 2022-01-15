@@ -228,11 +228,12 @@ footer p{
         height: 150%;
         display:grid;
         grid-template-columns: repeat(1, 300px);
-        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
         margin: 0;
     }
     .camera{
-        
+        justify-content: center;
         height: 500px;
     }
     .logo{
@@ -278,3 +279,69 @@ footer p{
         border: 2.3px solid #E02C6DDE;
         border-radius: 5px;
     }
+} 
+@media only screen and (max-width:992px){
+    .container{
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .content{
+        width: 10%;
+        height: 150%;
+        display:grid;
+        grid-template-columns: repeat(1, 300px);
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+    }
+    .camera{
+        justify-content: center;
+        height: 500px;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 50%;
+    }
+    
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+        margin: 0;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+    .contact1 img{
+        width: 290px;
+    }
+    
+    .contact2{
+        margin-top: 70px;
+    }
+    input{
+        font-size: large;
+        width: 295px;
+        height: 30px;
+        border-style: solid;
+        margin-top: 5px;
+        border: 2.3px solid #E02C6DDE;;
+        border-radius: 5px;
+    }
+    textarea{
+        color: #5E6366;
+        font-size: x-large;
+        width: 295px;
+        height: 300px;
+        border-style: solid;
+        margin-top: 5px;
+        border: 2.3px solid #E02C6DDE;
+        border-radius: 5px;
+    }
+}
