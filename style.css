@@ -1,5 +1,5 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -25,6 +25,10 @@ nav a{
     padding-right: 34px;
     font-size: 16px;
     font-weight: 600;
+    color: #3A3A3A;
+}
+#cart{
+    font-size: 16px;;
     color: #3A3A3A;
 }
 /* section one */
@@ -55,6 +59,9 @@ nav a{
     background-color: #E02C6D;
     padding: 10px 24px;
     border-radius: 41px;
+}
+#arrow{
+    color: white;
 }
 .text{
     padding-top: 145.8px;
@@ -125,4 +132,78 @@ nav a{
     font-weight: 700;
     color: #5E6366;
     margin: 0;
+}
+.button2{
+    display: flex;
+    justify-content: right;
+    padding-right: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    size: 16px;
+    text-decoration: none;
+    color: #E02C6DDE;
+}
+#right{
+    margin-top: 6px;
+    font-size: 16px;
+    color: #E02C6DDE;
+}
+
+/* section three */
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.contact1 img{
+    width: 500px;
+}
+.contact2{
+    margin-top: 70px;
+}
+input{
+    font-size: large;
+    width: 400px;
+    height: 30px;
+    border-style: solid;
+    margin-top: 5px;
+    border: 2.3px solid #E02C6DDE;;
+    border-radius: 5px;
+}
+textarea{
+    color: #5E6366;
+    font-size: x-large;
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    margin-top: 5px;
+    border: 2.3px solid #E02C6DDE;
+    border-radius: 5px;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 240px;
+
+}
+footer h3{
+    font-size: 24px;
+    color: white;
+    padding-top: 30px;
+}
+footer p{
+    font-size: 14px;
+    color: #D9DBE1;
+    font-family: 'Manrope', sans-serif;
+}
+.icon{
+    font-size: larger;
+    margin-left: 563px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
 }
