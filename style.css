@@ -35,8 +35,8 @@ nav a{
 .content{
     padding-left: 120px;
     padding-right: 120px;
-    display: flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr); 
     height: 600px;
 }
 .content h1{
@@ -152,14 +152,15 @@ nav a{
 /* section three */
 
 .contact{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 120px;
     margin-right: 120px;
 }
 .contact1 img{
     width: 500px;
 }
+
 .contact2{
     margin-top: 70px;
 }
@@ -207,3 +208,38 @@ footer p{
     display: grid;
     grid-template-columns: repeat(4, 50px);
 }
+@media only screen and (max-width:688px) {
+    .container{
+        margin: 0;
+        padding: 0px;
+    }
+    .content{
+        width: 10%;
+        height: 150%;
+        display:grid;
+        grid-template-columns: repeat(1, 300px);
+        padding: 0;
+        margin: 0;
+    }
+    .camera{
+        
+        height: 500px;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+    .product{
+        width: 265px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        margin: 0;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(1,);
+    }
