@@ -183,13 +183,20 @@ textarea{
     border: 2.3px solid #E02C6DDE;
     border-radius: 5px;
 }
-
+.btn{
+    color: white;
+    background-color: #E02C6DDE;
+    padding: 8px 15px;
+    border: 1px solid #E02C6DDE;
+    border-radius: 5px;
+}
 
 footer{
     text-align: center;
     color: white;
     background-color: black;
     height: 240px;
+    margin: 0;
 
 }
 footer h3{
@@ -230,9 +237,7 @@ footer p{
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
     }
-    .product{
-        width: 265px;
-    }
+    
     .products{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -241,5 +246,32 @@ footer p{
     }
     .contact{
         display: grid;
-        grid-template-columns: repeat(1,);
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+    .contact1 img{
+        width: 290px;
+    }
+    
+    .contact2{
+        margin-top: 70px;
+    }
+    input{
+        font-size: large;
+        width: 295px;
+        height: 30px;
+        border-style: solid;
+        margin-top: 5px;
+        border: 2.3px solid #E02C6DDE;;
+        border-radius: 5px;
+    }
+    textarea{
+        color: #5E6366;
+        font-size: x-large;
+        width: 295px;
+        height: 300px;
+        border-style: solid;
+        margin-top: 5px;
+        border: 2.3px solid #E02C6DDE;
+        border-radius: 5px;
     }
