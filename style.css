@@ -223,6 +223,19 @@ footer p{
         padding-top: 0;
         padding-bottom: 0;
     }
+    .influencer{
+        padding-top: 20px;
+    }
+    nav{
+        padding-top: 87px;
+        padding-right: 0;
+    }
+    .header{
+        padding: 0px 10px;
+    }
+    nav a{
+        padding: 0;
+    }
     .content{
         width: 10%;
         height: 150%;
@@ -235,6 +248,12 @@ footer p{
     .camera{
         justify-content: center;
         height: 500px;
+    }
+    .camera div img{
+        width: 350px;
+    }
+    .main{
+        top: -350px;
     }
     .logo{
         display: grid;
